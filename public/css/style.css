@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #383838;
+    color: white;
+}
+
+.form-container {
+    text-align: center;
+}
+
+form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 300px;
+    height: 8vh;
+    margin: 10px;
+
+    background: #000000B3;
+    border: none;
+    border-radius: 43px;
+    
+    color: #FFFFFF;
+    font-size: 3vh;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+button:hover {
+    background: #000000e1;
+}
+
+.option-button {
+    background: none;
+}
+
+.option-button:hover {
+    background: rgb(101, 101, 101);
+}
+
+.logout-button {
+    background: none;
+    font-size: 2vh;
+    color: grey;
+}
+
+.logout-button:hover {
+    background: none;
+    color: white;
+}
+
+input {
+    width: 300px;
+    height: 3vh;
+    margin-bottom: 10px;
+    border-radius: 43px;
+}
+
+.ticket-container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.filter-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: #383838;
+    color: white;
+}
+
+.filter-bar>input {
+    background: #000000B3;
+    border: none;
+    border-radius: 43px;
+
+    color: #FFFFFF;
+    font-size: 3vh;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.tickets-catalog {
+    height: 70vh;
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ticket-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket {
+    width: 90vw;
+    height: 20vh;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+
+    background-color: #8fe3ff;
+    border-radius: 10px;
+    color: black;
+
+}
+
+.ticket-details {
+    width: 20%;
+    margin: 10px;
+    text-align: left;
+}
+
+.ticket-desc {
+    width: 55%;
+    margin: 10px;
+    background-color: white;
+    text-align: left;
+}
+
+.ticket-status {
+    width: 20%;
+    margin: 10px;
+    text-align: left;
+}
+
+.ticket-form>form {
+    flex-direction: row;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+}
+
+.ditem {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+select {
+    height: 3vh;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 43px;
+}
+
+h2 {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.messages {
+    margin-bottom: 10px;
+    color: red;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar>input {
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+.no-valid {
+    border: 2px solid red;
+    outline: none;
+}
